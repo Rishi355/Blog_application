@@ -10,7 +10,7 @@ app.use("/api/user", router);
 app.use("/api/blog", blogRouter);
 mongoose
   .connect(
-    "mongodb+srv://Rishi123:Rishi123@cluster0.bih8yae.mongodb.net/test"
+    "link of atlas"
   )
   .then(() => app.listen(5000))
   .then(() =>
